@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2023"],
+    "target": "ES2023", // Ensure target matches the lib version
+    "lib": ["ES2023"],  // Keep lib consistent with target
     "module": "ESNext",
     "skipLibCheck": true,
 
@@ -16,7 +16,11 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* JSX */
+    "jsx": "react-jsx",  // Add this if you're using React with JSX
+    "resolveJsonModule": true  // Optional: Add if importing JSON files
   },
-  "include": ["vite.config.ts"]
+  "include": ["src", "vite.config.ts"]
 }
