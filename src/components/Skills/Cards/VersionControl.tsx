@@ -1,4 +1,4 @@
-import { Git, GithubIcon, Gitlab, Sourcetree } from "../../../icons/TechnologiesIcons";
+import { Git, GithubIcon, Gitlab, } from "../../../icons/TechnologiesIcons";
 import ShowTechnologies from "../../Technologies/ShowTechnologies";
 
 const VersionControl = () => {

@@ -1,4 +1,4 @@
-import { React, Javascript, Typescript, ReactQueryIcon, ReactRouter, Html5, Css3, Tailwindcss, Axios, Jquery } from "../../../icons/TechnologiesIcons";
+import { React, Javascript, Typescript, ReactRouter, Html5, Css3, Tailwindcss, Axios} from "../../../icons/TechnologiesIcons";
 import ShowTechnologies from "../../Technologies/ShowTechnologies";
 
 const BackEnd = () => {
