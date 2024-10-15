@@ -4,7 +4,7 @@ import img3 from "/ProjectAssets/NoPlayButton/npb-team.png"
 import img4 from "/ProjectAssets/NoPlayButton/npb-achievements.png"
 import Slider from "../../Slider/Slider"
 
-const Acadai = () => {
+const NoPlayButton = () => {
     const sliderImages = [
         {img: img1, alt: "Image of the landing page"},
         {img: img2, alt: "Image of the different sections"},
@@ -15,10 +15,12 @@ const Acadai = () => {
 
     return ( 
         <div className="w-full sm:w-4/5 md:w-2/5 xl:w-2/6">
-            <h2 className="text-xl mb-2">Acad.ai</h2>
+            <h2 className="text-xl mb-2">NoPlayButton</h2>
+            <a href="https://github.com/jaibhedia/NoPlayButton_Club" target="_blank">
             <Slider images={sliderImages}/>
+            </a>
         </div>
      );
 }
  
-export default Acadai;
+export default NoPlayButton;

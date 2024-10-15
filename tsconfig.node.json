@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2023", // Ensure target matches the lib version
-    "lib": ["ES2023"],  // Keep lib consistent with target
+    "lib": ["dom", "ES2023"],  // Keep lib consistent with target
     "module": "ESNext",
     "skipLibCheck": true,
 
